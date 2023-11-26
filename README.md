@@ -17,11 +17,18 @@ Instructions for building a homemade flash chip reader/programmer for SOIC8/SOP8
 
 ## Setup
 ### Hardware Setup
-Pin layout:
 <img src="https://github.com/jrabinowitz2/DIY-Flash-Reader-SOIC8/blob/main/img/soic8_pinout.png" width=200>
 
-Connection Diagram:
-<img src="https://github.com/jrabinowitz2/DIY-Flash-Reader-SOIC8/blob/main/img/soic8_connections.png" width=600>
+Flash Chip | Redboard
+--- | ---
+CS# | CS
+SO | MISO
+WP# | WP
+VSS | GND
+VCC | +3.3v
+HOLD# | +3.3v
+SCLK | CLK
+SI | MOSI
 
 ### Uploading code via Arduino
 1. Connect microcontroller via USB, configure in Arduino
