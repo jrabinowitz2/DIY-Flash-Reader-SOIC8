@@ -22,7 +22,7 @@ Flash Chip | Redboard
 --- | ---
 CS# | CS
 SO | MISO
-WP# | WP
+WP# | +3.3v
 VSS | GND
 VCC | +3.3v
 HOLD# | +3.3v
