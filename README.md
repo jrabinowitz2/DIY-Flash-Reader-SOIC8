@@ -11,7 +11,6 @@ Instructions for building a homemade flash chip reader/programmer for SOIC8/SOP8
   
 ## Software
 * **RDID.ino**: reads out manufacturer ID code
-* **RDOTP.ino**: read One Time Programmable (OTP) memory *(example hardcoded for GigaDevice)*
 * **FASTREAD.ino**: dump flash conecnts *(example hardcoded for GigaDevice)*
 * Other commands/manufacturers can be quickly implemented with slight modification...
 
